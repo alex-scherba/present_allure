@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Without message",
+      "children" : [ {
+        "name" : "testRegister",
+        "uid" : "978ecdecbe9c6959",
+        "parentUid" : "e48f7b7ae6b9be0980c8c569ae254c60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1507527521570,
+          "stop" : 1507527521868,
+          "duration" : 298
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e48f7b7ae6b9be0980c8c569ae254c60"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

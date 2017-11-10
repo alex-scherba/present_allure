@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="31960" started-at="2017-10-09T05:38:26Z" finished-at="2017-10-09T05:38:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="31960" started-at="2017-10-09T05:38:26Z" finished-at="2017-10-09T05:38:58Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:tests.LoginTest@757d6814]" name="set_up" is-config="true" duration-ms="14315" started-at="2017-10-09T11:38:26Z" description="Open Browser and navigate to Login Page" finished-at="2017-10-09T11:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@757d6814]" name="test" duration-ms="1264" started-at="2017-10-09T11:38:40Z" data-provider="Authentication" finished-at="2017-10-09T11:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@757d6814]" name="tearDown" is-config="true" duration-ms="2063" started-at="2017-10-09T11:38:41Z" description="Close Browser" finished-at="2017-10-09T11:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:tests.LoginTest@757d6814]" name="set_up" is-config="true" duration-ms="7104" started-at="2017-10-09T11:38:44Z" description="Open Browser and navigate to Login Page" finished-at="2017-10-09T11:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@757d6814]" name="test" duration-ms="1081" started-at="2017-10-09T11:38:51Z" data-provider="Authentication" finished-at="2017-10-09T11:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@757d6814]" name="tearDown" is-config="true" duration-ms="303" started-at="2017-10-09T11:38:52Z" description="Close Browser" finished-at="2017-10-09T11:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:tests.LoginTest@757d6814]" name="set_up" is-config="true" duration-ms="4536" started-at="2017-10-09T11:38:52Z" description="Open Browser and navigate to Login Page" finished-at="2017-10-09T11:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@757d6814]" name="test" duration-ms="927" started-at="2017-10-09T11:38:57Z" data-provider="Authentication" finished-at="2017-10-09T11:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@757d6814]" name="tearDown" is-config="true" duration-ms="310" started-at="2017-10-09T11:38:57Z" description="Close Browser" finished-at="2017-10-09T11:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterTest">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:tests.RegisterTest@2c1b9e4b]" name="set_up" is-config="true" duration-ms="15183" started-at="2017-10-09T11:38:26Z" description="Open Browser" finished-at="2017-10-09T11:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="FAIL" signature="testRegister()[pri:0, instance:tests.RegisterTest@2c1b9e4b]" name="testRegister" duration-ms="224" started-at="2017-10-09T11:38:41Z" finished-at="2017-10-09T11:38:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.BasePage.typeText_aroundBody0(BasePage.java:31)
+	at pages.BasePage$AjcClosure1.run(BasePage.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at pages.BasePage.typeText(BasePage.java:31)
+	at pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)
+	at pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)
+	at pages.RegisterPage.fillForm(RegisterPage.java:45)
+	at tests.RegisterTest.testRegister(RegisterTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RegisterTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="2142" started-at="2017-10-09T11:38:41Z" description="Close Browser" finished-at="2017-10-09T11:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

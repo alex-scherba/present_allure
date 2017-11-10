@@ -1,0 +1,11 @@
+tests/ExampleAllure/TestHistory.class
+tests/ExampleAllure/ScenarioExecutor.class
+tests/LoginTest.class
+tests/ExampleAllure/DisplayParameters.class
+pages/BasePage.class
+tests/ExampleAllure/ErrorCategories.class
+tests/RegisterTest.class
+tests/SmokeTest.class
+pages/RegisterPage.class
+pages/LoginPage.class
+tests/ProjectTest.class

@@ -1,0 +1,173 @@
+{
+  "uid" : "978ecdecbe9c6959",
+  "name" : "testRegister",
+  "fullName" : "tests.RegisterTest.testRegister",
+  "historyId" : "838377d9c016438990a8e271b4837525",
+  "time" : {
+    "start" : 1507527521570,
+    "stop" : 1507527521868,
+    "duration" : 298
+  },
+  "description" : "Login with incorrect data",
+  "descriptionHtml" : "<p>Login with incorrect data</p>\n",
+  "status" : "broken",
+  "statusDetails" : {
+    "trace" : "java.lang.NullPointerException\n\tat pages.BasePage.typeText_aroundBody0(BasePage.java:31)\n\tat pages.BasePage$AjcClosure1.run(BasePage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.BasePage.typeText(BasePage.java:31)\n\tat pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)\n\tat pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.RegisterPage.fillForm(RegisterPage.java:45)\n\tat tests.RegisterTest.testRegister(RegisterTest.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "Open Browser",
+    "time" : {
+      "start" : 1507527506410,
+      "stop" : 1507527521568,
+      "duration" : 15158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "trace" : "java.lang.NullPointerException\n\tat pages.BasePage.typeText_aroundBody0(BasePage.java:31)\n\tat pages.BasePage$AjcClosure1.run(BasePage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.BasePage.typeText(BasePage.java:31)\n\tat pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)\n\tat pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.RegisterPage.fillForm(RegisterPage.java:45)\n\tat tests.RegisterTest.testRegister(RegisterTest.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Fill Registration Form: {0} ",
+      "time" : {
+        "start" : 1507527521789,
+        "stop" : 1507527521792,
+        "duration" : 3
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "trace" : "java.lang.NullPointerException\n\tat pages.BasePage.typeText_aroundBody0(BasePage.java:31)\n\tat pages.BasePage$AjcClosure1.run(BasePage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.BasePage.typeText(BasePage.java:31)\n\tat pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)\n\tat pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.RegisterPage.fillForm(RegisterPage.java:45)\n\tat tests.RegisterTest.testRegister(RegisterTest.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+        "flaky" : false
+      },
+      "steps" : [ {
+        "name" : "Type text in the field",
+        "time" : {
+          "start" : 1507527521790,
+          "stop" : 1507527521792,
+          "duration" : 2
+        },
+        "status" : "broken",
+        "statusDetails" : {
+          "trace" : "java.lang.NullPointerException\n\tat pages.BasePage.typeText_aroundBody0(BasePage.java:31)\n\tat pages.BasePage$AjcClosure1.run(BasePage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.BasePage.typeText(BasePage.java:31)\n\tat pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)\n\tat pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.RegisterPage.fillForm(RegisterPage.java:45)\n\tat tests.RegisterTest.testRegister(RegisterTest.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "null"
+        }, {
+          "name" : "msgText",
+          "value" : "Login"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Login",
+        "value" : "Login"
+      }, {
+        "name" : "Password",
+        "value" : "Passw0rd"
+      }, {
+        "name" : "Firstname",
+        "value" : "First"
+      }, {
+        "name" : "Lastname",
+        "value" : "Last"
+      }, {
+        "name" : "Mail",
+        "value" : "test@mail.com"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Close Browser",
+    "time" : {
+      "start" : 1507527521889,
+      "stop" : 1507527524030,
+      "duration" : 2141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.RegisterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.RegisterTest"
+  }, {
+    "name" : "host",
+    "value" : "ascherba-pc"
+  }, {
+    "name" : "thread",
+    "value" : "15740@ascherba-pc.pool-1-thread-2(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "978ecdecbe9c6959.json",
+  "statusDetailsSafe" : {
+    "trace" : "java.lang.NullPointerException\n\tat pages.BasePage.typeText_aroundBody0(BasePage.java:31)\n\tat pages.BasePage$AjcClosure1.run(BasePage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.BasePage.typeText(BasePage.java:31)\n\tat pages.RegisterPage.fillForm_aroundBody0(RegisterPage.java:45)\n\tat pages.RegisterPage$AjcClosure1.run(RegisterPage.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:46)\n\tat pages.RegisterPage.fillForm(RegisterPage.java:45)\n\tat tests.RegisterTest.testRegister(RegisterTest.java:38)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:646)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1 @@
+{"uuid":"a3dad4ec-89cb-4053-b089-b28674f89da2","name":"tests.RegisterTest.set_up","description":"Open Browser","start":1507526820259,"stop":1507526843330,"children":["aefe16ae-bed0-486f-a83c-a31a326a816f"],"befores":[{"name":"Open Browser","status":"passed","stage":"finished","description":"Open Browser","start":1507526820260,"stop":1507526843330}]}

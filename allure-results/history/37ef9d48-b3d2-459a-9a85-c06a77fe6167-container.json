@@ -1,0 +1,1 @@
+{"uuid":"37ef9d48-b3d2-459a-9a85-c06a77fe6167","name":"tests.ExampleAllure.ScenarioExecutor.set_up","description":"Open Browser","start":1507523538496,"stop":1507523543135,"children":["a90a0b15-990f-46a4-abcf-b971f1fc3460"],"befores":[{"name":"Open Browser","status":"passed","stage":"finished","description":"Open Browser","start":1507523538496,"stop":1507523543133}]}

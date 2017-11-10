@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"broken","tests.RegisterTest.testRegister","298","Login with incorrect data"
+"passed","tests.LoginTest.test","1080","Login with incorrect data"
+"passed","tests.LoginTest.test","925","Login with incorrect data"
+"passed","tests.LoginTest.test","1021","Login with incorrect data"

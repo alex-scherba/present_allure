@@ -1,0 +1,1 @@
+{"uuid":"af0743f4-54a2-4ba4-b5b4-a70774e7f387","name":"tests.LoginTest.tearDown","description":"Close Browser","start":1507526844844,"stop":1507526846952,"children":["1c9db740-5614-41aa-bbde-3a97c05dcbbb"],"afters":[{"name":"Close Browser","status":"passed","stage":"finished","description":"Close Browser","start":1507526844844,"stop":1507526846952}]}
